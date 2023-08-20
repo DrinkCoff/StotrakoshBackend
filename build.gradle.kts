@@ -20,6 +20,7 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.projectlombok:lombok:1.18.22")
     runtimeOnly("com.mysql:mysql-connector-j")
+	implementation("app.jackychu:simple.google.translate.api:1.0.0")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
